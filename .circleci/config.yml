@@ -48,6 +48,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            #import qutip.testing as qt
             python manage.py test
 
       - store_artifacts:
